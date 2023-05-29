@@ -114,3 +114,8 @@ function disableBtn() {
     let btn = document.getElementById('btn');
     btn.disabled = true;
 }
+
+function playSound() {
+    let audio = document.getElementById('btn');
+    clickedAudio.play();
+}
