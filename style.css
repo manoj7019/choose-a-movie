@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.headpart {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 15px 15px 15px;
+    justify-content: space-between;
+}
+
+.movie-logo {
+    width: 100px;
+    height: auto;
+    align-self: center;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: #ff4500;
+}
+
+h3 {
+    margin: 20px 30px 10px 30px;
+}
+
+#btn {
+    color: white;
+    background-color: #ff4500;
+    border: none;
+    box-shadow: 0px 5px 10px lightgrey;
+    font-size: 1.5rem;
+    padding: 10px 30px 10px 30px;
+    border-radius: 1.5rem;
+}
+
+#para {
+    font-size: 50px;
+    margin: 30px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#again {
+    color: grey;
+    margin: 0px 30px 30px 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.copyright {
+    font-size: 10px;
+    align-self: center;
+}
+
+#githubPart {
+    margin-left: 5px;
+}
+
+#githubIcon {
+    height: 12px;
+}
